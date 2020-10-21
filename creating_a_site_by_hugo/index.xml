@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Creating a local documentation site by Hugo on My documentation</title>
-    <link>https://example.com/creating_a_site_by_hugo/</link>
+    <link>https://hupo6666.github.io/creating_a_site_by_hugo/</link>
     <description>Recent content in Creating a local documentation site by Hugo on My documentation</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://example.com/creating_a_site_by_hugo/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://hupo6666.github.io/creating_a_site_by_hugo/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
