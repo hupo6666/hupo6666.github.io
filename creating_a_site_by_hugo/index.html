@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Creating a local documentation site by Hugo - My documentation</title>
+<meta name="description" content="Text about this post">
+<meta name="generator" content="Hugo 0.76.5" />
+<link href="https://example.com/index.xml" rel="alternate" type="application/rss+xml">
+<link rel="canonical" href="https://example.com/creating_a_site_by_hugo/">
+<link rel="stylesheet" href="https://example.com/css/theme.min.css">
+<script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<link rel="stylesheet" href="https://example.com/css/chroma.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
+<script src="https://example.com/js/bundle.js"></script><style>
+:root {--custom-font-color: #A0522D;--custom-background-color: #BEBEBE;}
+</style>
+<meta property="og:title" content="Creating a local documentation site by Hugo" />
+<meta property="og:description" content="Text about this post" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://example.com/creating_a_site_by_hugo/" />
+<meta property="og:image" content="https://example.com/images/pexels-photo-196666.jpeg" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://example.com/images/pexels-photo-196666.jpeg"/>
+
+<meta name="twitter:title" content="Creating a local documentation site by Hugo"/>
+<meta name="twitter:description" content="Text about this post"/>
+<meta itemprop="name" content="Creating a local documentation site by Hugo">
+<meta itemprop="description" content="Text about this post">
+</head>
+<body><div class="container"><header>
+<h1>My documentation</h1><span class="version">Version 0.9.4</span><a href="https://github.com/thingsym/hugo-theme-techdoc" class="github"><i class="fab fa-github"></i></a>
+<p class="description">从零开始搭建属于自己的静态网站</p>
+
+</header>
+<div class="global-menu">
+<nav>
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="https://twitter.com/thingsym">Twitter</a></li></ul>
+</nav>
+</div>
+<div class="content-container">
+<main><h1>Creating a local documentation site by Hugo</h1><p>This section describes how to create a local document site by Hugo.</p>
+<ol>
+<li>
+<p>In Windows 10, type <strong>Command Prompt</strong> in the search box, and click <strong>Command Prompt</strong> from
+the search result. The Command Prompt console appears.</p>
+</li>
+<li>
+<p>In  <strong>Command Prompt</strong>, enter the following command:</p>
+<pre><code>cd c:\hugo
+</code></pre></li>
+<li>
+<p>Generate a new site.</p>
+<pre><code>hugo new site my_documentation
+</code></pre></li>
+<li>
+<p>Download a theme, for example, Techdoc theme.</p>
+<pre><code>cd &lt;new site name&gt;
+git clone &lt;Web URL of a theme&gt; &lt;new site name&gt;/themes/&lt;local theme name&gt;
+</code></pre><p>For example:</p>
+<pre><code>   
+git clone https://github.com/thingsym/hugo-theme-techdoc.git my_documentation/themes/hugo-theme-techdoc
+</code></pre></li>
+<li>
+<p>Copy the MD files of documents to the content folder of the local site, for example, <em>C:\Hugo\my_documentation\content</em>. The directory structure of MD files in the <strong>content</strong> folder is as follows:</p>
+<pre><code>content
+  -_index.md
+ -creating_a_site_by_hugo
+     -_index.md
+ -creating_a_respository_in_github
+     -_index.md
+  -publishing_a_site
+     -_index.md
+</code></pre></li>
+<li>
+<p>Start the Hugo server.</p>
+<pre><code>hugo server --theme=&lt;local theme name&gt;
+</code></pre><p>For example:</p>
+<pre><code>hugo server --theme=hugo-theme-techdoc
+</code></pre></li>
+<li>
+<p>In the address field of your internet browser, type the following URL address: http://localhost:1313. The local site opens.</p>
+</li>
+</ol>
+<div class="edit-meta">
+
+<br><a href="https://github.com/thingsym/hugo-theme-techdoc/edit/master/content/creating_a_site_by_hugo%5c_index.md" class="edit-page"><i class="fas fa-pen-square"></i> Edit on GitHub</a></div><nav class="pagination"><a class="nav nav-prev" href="https://example.com/" title="How to create a documentation site"><i class="fas fa-arrow-left" aria-hidden="true"></i> Prev - How to create a documentation site</a>
+<a class="nav nav-next" href="https://example.com/creating_a_respository_in_github/" title="Creating a repository in GitHub">Next - Creating a repository in GitHub <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+</nav><footer><p class="powered">Powered by <a href="https://gohugo.io">Hugo</a>. Theme by <a href="https://themes.gohugo.io/hugo-theme-techdoc/">TechDoc</a>. Designed by <a href="https://github.com/thingsym/hugo-theme-techdoc">Thingsym</a>.</p>
+</footer>
+</main>
+<div class="sidebar">
+
+<nav class="open-menu">
+<ul>
+<li class=""><a href="https://example.com">Home</a></li>
+
+<li class="parent active"><a href="https://example.com/creating_a_site_by_hugo/">Creating a local documentation site by Hugo</a>
+  
+</li>
+
+<li class=""><a href="https://example.com/creating_a_respository_in_github/">Creating a repository in GitHub</a>
+  
+</li>
+
+<li class=""><a href="https://example.com/publishing_a_site/">Publishing a site</a>
+  
+</li>
+</ul>
+</nav>
+
+
+
+<div class="sidebar-footer"></div>
+</div>
+
+</div><a href="#" id="backtothetop-fixed" class="backtothetop"
+ data-backtothetop-duration="600"
+ data-backtothetop-easing="easeOutQuart"
+ data-backtothetop-fixed-fadeIn="1000"
+ data-backtothetop-fixed-fadeOut="1000"
+ data-backtothetop-fixed-bottom="10"
+ data-backtothetop-fixed-right="20">
+<span class="fa-layers fa-fw">
+<i class="fas fa-circle"></i>
+<i class="fas fa-arrow-circle-up"></i>
+</span></a>
+</div>
+</body>
+</html>
