@@ -47,12 +47,14 @@
 <main><h1>Publishing a site</h1><p>This section describes how to publish a site by GitHub.</p>
 <ol>
 <li>
-<p>In Windows 10, type <strong>Command Prompt</strong> in the search box, and click <strong>Command Prompt</strong> from
+<p>In Windows 10, type <strong>Command Prompt</strong> in the search box of the toolbar, and click <strong>Command Prompt</strong> from
 the search result. The Command Prompt console appears.</p>
 </li>
 <li>
 <p>In  <strong>Command Prompt</strong>, enter the following command:</p>
 <pre><code>cd c:\hugo\&lt;new site name&gt;
+</code></pre><p>For example:</p>
+<pre><code>cd c:\hugo\my_documentation
 </code></pre></li>
 <li>
 <p>Enter the following command:</p>
@@ -62,7 +64,7 @@ the search result. The Command Prompt console appears.</p>
 </code></pre><p>Hugo generates output files to the <strong>public</strong> folder.</p>
 </li>
 <li>
-<p>Modify the value of <strong>baseUrl</strong> attribute to <em>https://<repository name></em> in the config.toml file under the site name, for example, baseURL=&ldquo;<a href="https://hupo6666.github.io">https://hupo6666.github.io</a>&rdquo;.</p>
+<p>Modify the value of <strong>baseUrl</strong> attribute to <u>https://<code>repository name</code></u> in the config.toml file under the site name, for example, baseURL=&ldquo;<a href="https://hupo6666.github.io">https://hupo6666.github.io</a>&rdquo;.</p>
 </li>
 <li>
 <p>Access the <strong>public</strong> folder:</p>
@@ -70,6 +72,12 @@ the search result. The Command Prompt console appears.</p>
 </code></pre></li>
 <li>
 <p>Enter the following commands:</p>
+<pre><code>git init 
+git remote add origin &lt;HTTPS format of the respository&gt; 
+git add -A 
+git commit -m &quot;first commit&quot; 
+git push -u origin master
+</code></pre><p>For example:</p>
 <pre><code>git init 
 git remote add origin https://github.com/hupo6666/hupo6666.github.io.git 
 git add -A 
@@ -80,13 +88,13 @@ git push -u origin master
 <p>Type the username and password in the authentication page in the browser, and click <strong>Authorize GitCridentialManager</strong>. Wait a few seconds, then the commands are completed successfully.</p>
 </li>
 <li>
-<p>In the address field of your internet browser, type the following URL address:https://hupo6666.github.io. The local site opens.</p>
+<p>In the address field of your internet browser, type the following URL address:  <u>https://<code>repository name</code></u>. For example, <a href="https://hupo6666.github.io">https://hupo6666.github.io</a>. The local site opens.</p>
 </li>
 </ol>
 <div class="edit-meta">
 
-<br><a href="https://github.com/thingsym/hugo-theme-techdoc/edit/master/content/publishing_a_site%5c_index.md" class="edit-page"><i class="fas fa-pen-square"></i> Edit on GitHub</a></div><nav class="pagination"><a class="nav nav-prev" href="https://hupo6666.github.io/creating_a_respository_in_github/" title="Creating a repository in GitHub"><i class="fas fa-arrow-left" aria-hidden="true"></i> Prev - Creating a repository in GitHub</a>
-<a class="nav nav-next" href="https://hupo6666.github.io/creating_a_site_by_hugo/" title="Creating a local documentation site by Hugo">Next - Creating a local documentation site by Hugo <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+<br><a href="https://github.com/thingsym/hugo-theme-techdoc/edit/master/content/publishing_a_site%5c_index.md" class="edit-page"><i class="fas fa-pen-square"></i> Edit on GitHub</a></div><nav class="pagination"><a class="nav nav-prev" href="https://hupo6666.github.io/creating_a_site_by_hugo/" title="Creating a local documentation site by Hugo"><i class="fas fa-arrow-left" aria-hidden="true"></i> Prev - Creating a local documentation site by Hugo</a>
+<a class="nav nav-next" href="https://hupo6666.github.io/creating_a_respository_in_github/" title="Creating a repository in GitHub">Next - Creating a repository in GitHub <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
 </nav><footer><p class="powered">Powered by <a href="https://gohugo.io">Hugo</a>. Theme by <a href="https://themes.gohugo.io/hugo-theme-techdoc/">TechDoc</a>. Designed by <a href="https://github.com/thingsym/hugo-theme-techdoc">Thingsym</a>.</p>
 </footer>
 </main>
@@ -96,11 +104,11 @@ git push -u origin master
 <ul>
 <li class=""><a href="https://hupo6666.github.io">Home</a></li>
 
-<li class=""><a href="https://hupo6666.github.io/creating_a_site_by_hugo/">Creating a local documentation site by Hugo</a>
+<li class=""><a href="https://hupo6666.github.io/creating_a_respository_in_github/">Creating a repository in GitHub</a>
   
 </li>
 
-<li class=""><a href="https://hupo6666.github.io/creating_a_respository_in_github/">Creating a repository in GitHub</a>
+<li class=""><a href="https://hupo6666.github.io/creating_a_site_by_hugo/">Creating a local documentation site by Hugo</a>
   
 </li>
 

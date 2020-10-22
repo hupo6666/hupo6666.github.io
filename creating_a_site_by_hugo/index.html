@@ -59,22 +59,23 @@ the search result. The Command Prompt console appears.</p>
 <pre><code>hugo new site my_documentation
 </code></pre></li>
 <li>
-<p>Download a theme, for example, Techdoc theme.</p>
+<p>Download a documentation theme, for example, Techdoc theme.</p>
 <pre><code>cd &lt;new site name&gt;
-git clone &lt;Web URL of a theme&gt; &lt;new site name&gt;/themes/&lt;local theme name&gt;
+git clone &lt;Web URL of a theme&gt; themes/&lt;local theme name&gt;
 </code></pre><p>For example:</p>
-<pre><code>git clone https://github.com/thingsym/hugo-theme-techdoc.git my_documentation/themes/hugo-theme-techdoc
+<pre><code>cd my_documentation
+git clone https://github.com/thingsym/hugo-theme-techdoc.git themes/hugo-theme-techdoc
 </code></pre></li>
 <li>
 <p>Copy the MD files of documents to the content folder of the local site, for example, <em>C:\Hugo\my_documentation\content</em>. The directory structure of MD files in the <strong>content</strong> folder is as follows:</p>
 <pre><code>content
-  -_index.md
- -creating_a_site_by_hugo
-     -_index.md
- -creating_a_respository_in_github
-     -_index.md
-  -publishing_a_site
-     -_index.md
+  |__ _index.md
+  |__- creating_a_site_by_hugo
+      - _index.md
+  |__ creating_a_respository_in_github
+      - _index.md
+  |__ publishing_a_site
+      - _index.md
 </code></pre></li>
 <li>
 <p>Start the Hugo server.</p>
@@ -88,8 +89,8 @@ git clone &lt;Web URL of a theme&gt; &lt;new site name&gt;/themes/&lt;local them
 </ol>
 <div class="edit-meta">
 
-<br><a href="https://github.com/thingsym/hugo-theme-techdoc/edit/master/content/creating_a_site_by_hugo%5c_index.md" class="edit-page"><i class="fas fa-pen-square"></i> Edit on GitHub</a></div><nav class="pagination"><a class="nav nav-prev" href="https://hupo6666.github.io/" title="How to create a documentation site"><i class="fas fa-arrow-left" aria-hidden="true"></i> Prev - How to create a documentation site</a>
-<a class="nav nav-next" href="https://hupo6666.github.io/creating_a_respository_in_github/" title="Creating a repository in GitHub">Next - Creating a repository in GitHub <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+<br><a href="https://github.com/thingsym/hugo-theme-techdoc/edit/master/content/creating_a_site_by_hugo%5c_index.md" class="edit-page"><i class="fas fa-pen-square"></i> Edit on GitHub</a></div><nav class="pagination"><a class="nav nav-prev" href="https://hupo6666.github.io/creating_a_respository_in_github/" title="Creating a repository in GitHub"><i class="fas fa-arrow-left" aria-hidden="true"></i> Prev - Creating a repository in GitHub</a>
+<a class="nav nav-next" href="https://hupo6666.github.io/publishing_a_site/" title="Publishing a site">Next - Publishing a site <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
 </nav><footer><p class="powered">Powered by <a href="https://gohugo.io">Hugo</a>. Theme by <a href="https://themes.gohugo.io/hugo-theme-techdoc/">TechDoc</a>. Designed by <a href="https://github.com/thingsym/hugo-theme-techdoc">Thingsym</a>.</p>
 </footer>
 </main>
@@ -99,11 +100,11 @@ git clone &lt;Web URL of a theme&gt; &lt;new site name&gt;/themes/&lt;local them
 <ul>
 <li class=""><a href="https://hupo6666.github.io">Home</a></li>
 
-<li class="parent active"><a href="https://hupo6666.github.io/creating_a_site_by_hugo/">Creating a local documentation site by Hugo</a>
+<li class=""><a href="https://hupo6666.github.io/creating_a_respository_in_github/">Creating a repository in GitHub</a>
   
 </li>
 
-<li class=""><a href="https://hupo6666.github.io/creating_a_respository_in_github/">Creating a repository in GitHub</a>
+<li class="parent active"><a href="https://hupo6666.github.io/creating_a_site_by_hugo/">Creating a local documentation site by Hugo</a>
   
 </li>
 
